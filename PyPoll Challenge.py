@@ -3,10 +3,10 @@ import csv
 import os
 
 
-path = "/Users/frankwang/Desktop/election_analysis"
-file_to_load = os.path.join(path,"Resources", "election_results.csv")
+# path = "/Users/frankwang/Desktop/election_analysis"
+file_to_load = os.path.join("Resources", "election_results.csv")
 
-file_to_save = os.path.join(path,"analysis", "election_analysis2.txt")
+file_to_save = os.path.join("analysis", "election_analysis2.txt")
 # election_data = open(file_to_load, "r")
 
 
